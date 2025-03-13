@@ -2,8 +2,8 @@ import Transaction from "../../screensss/admin/Transaction";
 import Setting from "../../screensss/admin/Setting";
 import { createMaterialBottomTabNavigator } from "@react-navigation/material-bottom-tabs";
 import RouterHome from "../admin/RouterHome";
-import Customers from "../../screensss/admin/Customers";
-import Payments from "../../screensss/admin/Payments";
+import Customers from "../../screens/admin/Customers";
+import Payments from "../../screens/admin/Payments";
 
 const Tab = createMaterialBottomTabNavigator()
 

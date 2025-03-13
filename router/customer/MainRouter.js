@@ -1,11 +1,8 @@
 import { createStackNavigator } from "@react-navigation/stack";
-import TabAdmin from "./TabAdmin";
+import TabAdmin from "./TabManager";
 import TabCustomer from "./TabCustomer";
-import Login from "../../screensss/customer/Login";
-import Register from "../../screensss/customer/Register";
-import ResetPassword from "../../screensss/customer/ResetPassword";
-import ChangePassword from "../../screensss/customer/ChangePassword";
-import Profile from "../../screensss/customer/Profile";
+import Login from "../../screen/customer/Login";
+import Register from "../../screen/customer/Register";
 import Welcome from "../../screen/customer/Welcome";
 
 
