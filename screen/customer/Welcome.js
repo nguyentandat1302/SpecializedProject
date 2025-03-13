@@ -1,7 +1,12 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, ImageBackground, FlatList } from 'react-native';
 
-
+const images = [];
+//   { id: '1', uri: require('../../image/badminton.jpg') },
+//   { id: '2', uri: require('../../image/basketball.jpg') },
+//   { id: '3', uri: require('../../image/football.jpg') },
+//   { id: '4', uri: require('../../image/tennis.jpg') },
+// ];
 
 const Welcome = ({ navigation }) => {
   const handlePress = () => {

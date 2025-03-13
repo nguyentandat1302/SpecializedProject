@@ -1,5 +1,5 @@
 import { createStackNavigator } from "@react-navigation/stack";
-import { useMyContextController } from "../../context";
+import { useMyContextController } from "../../Context";
 import { Avatar, IconButton } from "react-native-paper";
 import { TouchableOpacity } from "react-native";
 import ServicesCustomer from "../../screen/customer/ServicesCustomer";
