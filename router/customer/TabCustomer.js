@@ -1,7 +1,6 @@
 import { createMaterialBottomTabNavigator } from "@react-navigation/material-bottom-tabs";
-import RouterServiceCustomer from "../../routersss/customer/RouterServiceCustomer";
-import Setting from "../../screensss/admin/Setting";
-import History from "../../screensss/customer/History";
+import RouterServiceCustomer from "../../router/customer/RouterServiceCustomer";
+import Setting from "../../screen/manager/Setting";
 
 const Tab = createMaterialBottomTabNavigator()
 
